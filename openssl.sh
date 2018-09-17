@@ -1,3 +1,2 @@
-openssl req -x509 -nodes -newkey ec:brainpoolP512t1 -keyout server.ecdsa.key -out server.ecdsa.crt -days 3650
-ln -sf server.ecdsa.key server.key
-ln -sf server.ecdsa.crt server.crt
+openssl ecparam -genkey -name brainpoolP512t1 -out ./mycert/server.key
+openssl req -new -x509 -sha256 -key ./mycert/server.key -out ./mycert/server.crt -days 3650
