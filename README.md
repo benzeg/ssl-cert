@@ -1,5 +1,11 @@
 # ssl-cert
 
+## Prerequisites
+##### Ensure that openssl toolkit is installed:
+```sh
+$ apt-get install openssl
+```
+
 ## Getting Started
 Use as standalone or as git submodule.
 
