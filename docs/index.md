@@ -15,6 +15,6 @@ The program will call on Openssl with an Elliptic Curve Diffe Hellman ([ECDH][ec
 [Simple Golang HTTPS/TLS Examples][golang example]
 
 
-[GuyRutenberg]: "https://www.guyrutenberg.com/2013/12/28/creating-self-signed-ecdsa-ssl-certificate-using-openssl/"
-[ecdh]: "https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations"
+[GuyRutenberg]: https://www.guyrutenberg.com/2013/12/28/creating-self-signed-ecdsa-ssl-certificate-using-openssl/
+[ecdh]: https://wiki.openssl.org/index.php/Command_Line_Elliptic_Curve_Operations
 [golang example]: https://github.com/denji/golang-tls
