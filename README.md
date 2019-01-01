@@ -18,15 +18,9 @@ repo$ mkdir ./mycert
 repo$ sh ./ssl-cert/openssl.sh
 ```
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/benzeg/ssl-cert/tags).
-
 ## Authors
 
 **Benze Gong**
-
-See also the list of [contributors](https://github.com/benzeg/ssl-cert/contributors) who participated in this project.
 
 ## License
 
